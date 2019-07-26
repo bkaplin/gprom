@@ -1,4 +1,4 @@
-files = ["../train_data.csv", "../need_fill_data.csv"]
+files = ["../train_data.csv", ]#"../need_fill_data.csv"]
 for file_name in files:
     f = open(file_name, 'r')
     data = f.readlines()
