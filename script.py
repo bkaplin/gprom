@@ -60,7 +60,7 @@ models = [
 
 test_sizes = [round(0.05 * x, 2) for x in range(1, 20)]
 MIN_ERROR = 100
-for i in range(5, len(keys)):
+for i in range(2, len(keys)):
     print(f"MAIN CYCLE COUNTER: {i}")
     l1 = combinations(keys, i)
     l += l1
